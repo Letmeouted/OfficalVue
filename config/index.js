@@ -1,7 +1,7 @@
 /*
  * @Author: whf
  * @Date: 2021-01-05 09:29:48
- * @LastEditTime: 2021-01-05 10:13:29
+ * @LastEditTime: 2021-01-05 10:33:26
  * @FilePath: \WebDemo\config\index.js
  */
 'use strict'
@@ -55,7 +55,6 @@ module.exports = {
 
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
-    assetsSubDirectory: 'static',
     assetsPublicPath: './',
 
     /**
