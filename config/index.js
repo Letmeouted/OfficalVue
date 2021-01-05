@@ -1,3 +1,9 @@
+/*
+ * @Author: whf
+ * @Date: 2021-01-05 09:29:48
+ * @LastEditTime: 2021-01-05 09:52:25
+ * @FilePath: \WebDemo\config\index.js
+ */
 'use strict'
 // Template version: 1.3.1
 // see http://vuejs-templates.github.io/webpack for documentation.
@@ -45,10 +51,10 @@ module.exports = {
 
   build: {
     // Template for index.html
-    index: path.resolve(__dirname, '../dist/index.html'),
+    index: path.resolve(__dirname, '../docs/index.html'),
 
     // Paths
-    assetsRoot: path.resolve(__dirname, '../dist'),
+    assetsRoot: path.resolve(__dirname, '../docs'),
     assetsSubDirectory: 'static',
     assetsPublicPath: './',
 
