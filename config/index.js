@@ -1,7 +1,7 @@
 /*
  * @Author: whf
  * @Date: 2021-01-05 09:29:48
- * @LastEditTime: 2021-01-05 09:52:25
+ * @LastEditTime: 2021-01-05 10:04:04
  * @FilePath: \WebDemo\config\index.js
  */
 'use strict'
@@ -51,10 +51,10 @@ module.exports = {
 
   build: {
     // Template for index.html
-    index: path.resolve(__dirname, '../docs/index.html'),
+    index: path.resolve(__dirname, '../dist/index.html'),
 
     // Paths
-    assetsRoot: path.resolve(__dirname, '../docs'),
+    assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
     assetsPublicPath: './',
 
